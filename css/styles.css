@@ -1,21 +1,22 @@
 button {
-    border-radius: 5%;
-    background-color: transparent;
-    border-color: turquoise;
-    color: orange;
-    height:auto;
-    width:auto;
-    text-align: center;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 35%;
+    background-color: cyan;
+    border-color: transparent;
+    color: rgb(0, 0, 0);  
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* text-align: center;   */
+    font-size: larger;
 }
 
 body {
-    margin: 12em;
+    margin: 1em;
     background-color: rgb(74, 74, 74);
-    width: 79%;
-    border: 12em solid black;
+    /* width: 79%; */
+    /* border: 12em solid black; */
+    width:min-content;
+    border-radius: 01%;
+    border: 1.2em solid transparent;
 }
 
 h1 {
@@ -36,20 +37,57 @@ article {
     padding: 10%;
     background-color: aquamarine;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 12%;
 }
 
 nav {
-    background-color: blueviolet;
+    background-color: transparent;
    display:flex;
    align-items: center;
    justify-content: center;
-   padding: 1em;
 }
 
-.ctrl-button {
+
+
+
+
+.horizontal-arrows { 
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-size: xx-large;
+    display:grid;
+    justify-content: center;
+}
+
+.vertical-arrows {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-size: xx-large;
+    position:inherit;
+
+}
+
+.gui {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(66, 14, 62);
+
+    
+ }
+
+ .spielfeld{
+    color: rgb(0, 0, 0);
+    background-color: coral;
+    font-variant-caps: unicase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    width:min-content;
+    border-radius: 1.2em;
+    padding: 1.2em;
 }
