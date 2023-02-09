@@ -1,0 +1,55 @@
+button {
+    border-radius: 5%;
+    background-color: transparent;
+    border-color: turquoise;
+    color: orange;
+    height:auto;
+    width:auto;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 12em;
+    background-color: rgb(74, 74, 74);
+    width: 79%;
+    border: 12em solid black;
+}
+
+h1 {
+    text-align: center;
+    background-color: azure;
+}
+
+main {
+    border: 1.2em solid crimson;
+    margin: 10%;
+    display:contents;
+    align-items:baseline;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+article {
+    padding: 10%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: blueviolet;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1em;
+}
+
+.ctrl-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
