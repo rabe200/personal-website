@@ -1,0 +1,107 @@
+/* .y-axis {
+    display: flex;
+    justify-content: center;
+} */
+
+button {
+    border-radius: 35%;
+    background-color: cyan;
+    border-color: transparent;
+    color: rgb(0, 0, 0);  
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* text-align: center;   */
+    font-size: larger;
+}
+
+body {
+    margin: 1em;
+    background-color: rgb(74, 74, 74);
+    /* width: 79%; */
+    /* border: 12em solid black; */
+    width:min-content;
+    border-radius: 01%;
+    border: 1.2em solid transparent;
+}
+
+h1 {
+    text-align: center;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    border: 1.2em solid crimson;
+    display:flex;
+    align-items:stretch;
+    justify-content: center;
+}
+
+article {
+    padding: 10%;
+    background-color: aquamarine;
+    display: flex;
+    bgitorder-radius: 12%;
+    align-items: start;
+    justify-content: center;
+}
+
+nav {
+    background-color: transparent;
+   display:flex;
+   align-items: start;
+   justify-content: center;
+}
+
+
+
+
+
+.horizontal-arrows { 
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-size: xx-large;
+    display:grid;
+    justify-content: center;
+}
+
+.vertical-arrows {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-size: xx-large;
+    position:inherit;
+
+ }
+
+.gui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(121, 39, 115);
+
+
+    
+ }
+
+ .spielfeld{
+    color: rgb(0, 0, 0);
+    background-color: coral;
+    font-variant-caps: unicase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    width:min-content;
+    border-radius: 1.2em;
+    padding: 1.2em;
+}
+
+/* outputfield-styling */
+
+.output-field {
+    background-color: yellow;
+}
