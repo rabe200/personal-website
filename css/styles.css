@@ -1,3 +1,8 @@
+/* .y-axis {
+    display: flex;
+    justify-content: center;
+} */
+
 button {
     border-radius: 35%;
     background-color: cyan;
@@ -22,28 +27,30 @@ body {
 h1 {
     text-align: center;
     background-color: azure;
+    display: flex;
+    justify-content: center;
 }
 
 main {
     border: 1.2em solid crimson;
-    margin: 10%;
-    display:contents;
-    align-items:baseline;
-    justify-content: space-evenly;
-    width: 80%;
+    display:flex;
+    align-items:stretch;
+    justify-content: center;
 }
 
 article {
     padding: 10%;
     background-color: aquamarine;
     display: flex;
-    border-radius: 12%;
+    bgitorder-radius: 12%;
+    align-items: start;
+    justify-content: center;
 }
 
 nav {
     background-color: transparent;
    display:flex;
-   align-items: center;
+   align-items: start;
    justify-content: center;
 }
 
@@ -67,13 +74,14 @@ nav {
     font-size: xx-large;
     position:inherit;
 
-}
+ }
 
 .gui {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(66, 14, 62);
+    background-color: rgb(121, 39, 115);
+
 
     
  }
@@ -90,4 +98,10 @@ nav {
     width:min-content;
     border-radius: 1.2em;
     padding: 1.2em;
+}
+
+/* outputfield-styling */
+
+.output-field {
+    background-color: yellow;
 }
