@@ -15,6 +15,7 @@ button {
 }
 
 body {
+    position: relative;
     margin: 1em;
     background-color: rgb(74, 74, 74);
     /* width: 79%; */
@@ -26,13 +27,13 @@ body {
 
 h1 {
     text-align: center;
-    background-color: azure;
+    background-color: rgb(247, 129, 245);
     display: flex;
     justify-content: center;
 }
 
 main {
-    border: 1.2em solid crimson;
+    border: 1.2em solid rgb(228, 125, 236);
     display:flex;
     align-items:stretch;
     justify-content: center;
@@ -80,7 +81,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(121, 39, 115);
+    background-color: rgb(227, 108, 219);
 
 
     
@@ -88,7 +89,7 @@ nav {
 
  .spielfeld{
     color: rgb(0, 0, 0);
-    background-color: coral;
+    background-color: rgb(145, 218, 240);
     font-variant-caps: unicase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display:flex;
@@ -102,6 +103,27 @@ nav {
 
 /* outputfield-styling */
 
+footer {
+    position: fixed;
+    bottom: 0px;
+}
+
 .output-field {
-    background-color: yellow;
+    background-color: rgb(146, 246, 244);
+    position: sticky;
+    bottom: 0px;
+}
+
+.OUTPUT {
+    position: sticky;
+    bottom: 0px;
+    background-color: aqua;
+    
+}
+
+.animation {
+    position: absolute
+    ;
+    height: 12em;
+    pointer-events: none;
 }
