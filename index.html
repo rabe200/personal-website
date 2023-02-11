@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="js/script.js"></script>
 
 </head>
 <body>
     <main>
+        
         <div class="y-axis">
         <h1>START LABYRINTH</h1>
-        
             
     
         <nav>
-            <button type="button"> ROOM 1</button> 
+            <button type="button" > ROOM 1</button> 
             <button type="button"> ROOM 2</button>
             <button type="button"> ROOM 3</button>
             <a href="room4.html"><button type="button"> ROOM 4</button></a>
@@ -26,12 +27,14 @@
         
          
         <article class="gui">
-            <button type="button" class="vertical-arrows">ARROW TOP</button>
+            <button type="button" class="vertical-arrows" onClick=move_img('up') value='Up'>ARROW TOP</button>
             <section class="horizontal-arrows">
-            <button type="button" class="horizontal-arrows">ARROW LEFT</button>
+            <button type="button" class="horizontal-arrows" onClick=move_img('left') value='left'>ARROW LEFT</button>
             
             
                 <div class="spielfeld">
+            
+                   
             XXXXXXXXXXXXXXXXXXXXXXXXXXXX
             XXXXXXXXXXXXXXXXXXXXXXXXXXXX
             XXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -43,10 +46,10 @@
             XXXXXXXXXXXXXXXXXXXXXXXXXXXX
             XXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </div>
-            <button type="button" class="horizontal-arrows">ARROW RIGHT</button>
+            <button type="button" class="horizontal-arrows" onClick=move_img('right') value='right'>ARROW RIGHT</button>
         
         </section>
-        <button type="button" class="vertical-arrows">ARROW DOWN</button>
+        <button type="button" class="vertical-arrows" onClick=move_img('down') value='down'>ARROW DOWN</button>
         </article>
         
 
@@ -54,8 +57,11 @@
 
         
     </main>
+    <footer>
     <article class="output-field">
-        <div> OUTPUT</div>
+        <div class="OUTPUT"> OUTPUT</div>
     </article>
+</footer>
+<img src="https://rabe.wtf/img/croc2.PNG" id='i1' class="animation">
 </body>
 </html>
